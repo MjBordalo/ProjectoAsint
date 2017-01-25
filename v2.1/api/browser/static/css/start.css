@@ -1,3 +1,9 @@
+body {
+    background-image: url("../figs/bg-05-blur.jpg");
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
 form {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-image: url("../figs/img5.png");
@@ -23,11 +29,6 @@ form {
 
 }
 
-body {
-    background-image: url("../figs/bg-05-blur.jpg");
-    background-repeat: no-repeat;
-    background-size: cover
-}
 
 input[type=text]
 {
