@@ -1,0 +1,42 @@
+body {
+    background-image: url("../figs/background_users.jpg");
+}
+ .header{
+	/* background-color: #4CAF50;
+	background-size: 100% 100%;
+	margin-top: -8px;
+	margin-left: -8px;
+	width:100%;
+	height:150px;*/
+	vertical-align: middle;
+    text-align: center;
+}
+
+/*.exttb{
+    border: 1px solid black;
+    table-layout: fixed;
+	width:20%;
+	height:300px;
+	display:inline-block;
+}
+
+.inttb{
+	table-layout: fixed;
+	width:100%;
+	height:100%;
+}
+
+td {
+    border: 1px solid black;
+    width: 100px;
+}
+*/
+/*	button {
+	    background-color: #4CAF50;
+	    color: white;
+	    padding: 14px 20px;
+	    margin: 8px 0;
+	    border: none;
+	    cursor: pointer;
+	    width: 100%;
+	}*/

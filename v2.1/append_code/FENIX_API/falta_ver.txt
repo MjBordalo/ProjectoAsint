@@ -1,0 +1,6 @@
+
+(Já registei a app e no ficheiro fenixedutest.ini esses dados são os meus!)
+
+(1) Ao registar a app falta por o URL
+(2) Ao registar a app faltapor o Redirect URL correcto
+(3) Ao registar a app mudar nome e por Logo

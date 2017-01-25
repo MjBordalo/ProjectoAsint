@@ -1,0 +1,29 @@
+ROOM Occupancy IST 
+
+Server 
+Classes:
+Room: [identifier, list of students]
+Student: [username, identifier, room=NULL/room identifier]
+Operations:
+Check-In(Student, Room) [Student] Description: Insert Student S in Room R in case Student S is not checked-in in any other room.   
+Check-Out(Student, Room) [Student] Description: Delete Student S from Room R in case Student S is checked-in in room R.  
+View()  [Student,Administrator]
+ManageRoom(Room,Operation,Occupancy) [Administrator] Description: Create Room R with Occupancy X; Delete Room R.
+
+Web Application Identifiers:
+/start Description: Entry page for web application. Provide User Authentication and Registration.
+/start/uname?=<uname>/ Description: Entry Page for User <uname>
+if Administrator:
+View Room.
+Create Room.
+Delete Room.
+if Student:
+View Room.
+Check-In.
+Check-Out.
+/start/uname?=0/ Description: Entry Page for Room Creation by Admin
+
+Others:
+Room Identifier: /campus/building/floor/name/
+TODO:
+Add Session Cookies for Web Application Surfing 

@@ -1,0 +1,53 @@
+form {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url("../figs/img5.png");
+    background-color: #ffffff;
+	margin: auto;
+	width: 30%;
+	margin-top: 40px;
+	border: 3px solid #0000B2;
+	padding: 10px;
+}
+
+body {
+    background-image: url("../figs/img1.png");
+}
+
+input[type=text]
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=button]
+{
+    background-color: #0000B2;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 0%;
+}
+
+.container {
+    padding: 16px;
+}
+
+.error {
+    color: #FF0000;
+}

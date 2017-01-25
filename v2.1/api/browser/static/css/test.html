@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Dependent Checkboxes</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="dependent-checkboxes">
+            <h1>Dependent Checkboxes</h1>
+
+            <p><label class="checkbox"><input type="checkbox" class="check-all"> Check all</label></p>
+            <div class="column">
+                <label class="checkbox"><input type="checkbox" data-group="cat1"> Category 1</label>
+                <ul>
+                    <li><label class="checkbox"><input type="checkbox" data-category="cat1"> Item</label></li>
+                    <li><label class="checkbox"><input type="checkbox" data-category="cat1"> Item</label></li>
+                    <li><label class="checkbox"><input type="checkbox" data-category="cat1"> Item</label></li>
+                    <li><label class="checkbox"><input type="checkbox" data-category="cat1"> Item</label></li>
+                    <li><label class="checkbox"><input type="checkbox" data-category="cat1"> Item</label></li>
+                    <li><label class="checkbox"><input type="checkbox" data-category="cat1"> Item</label></li>
+                    <li><label class="checkbox"><input type="checkbox" data-category="cat1"> Item</label></li>
+                    <li><label class="checkbox"><input type="checkbox" data-category="cat1"> Item</label></li>
+                    <li><label class="checkbox"><input type="checkbox" data-category="cat1"> Item</label></li>
+                    <li><label class="checkbox"><input type="checkbox" data-category="cat1"> Item</label></li>
+                </ul>
+            </div>
+            <div class="column">
+                <label class="checkbox"><input type="checkbox" data-group="cat2"> Category 2</label>
+                <ul>
+                    <li><label class="checkbox"><input type="checkbox" data-category="cat2"> Item</label></li>
+                    <li><label class="checkbox"><input type="checkbox" data-category="cat2"> Item</label></li>
+                    <li><label class="checkbox"><input type="checkbox" data-category="cat2"> Item</label></li>
+                    <li><label class="checkbox"><input type="checkbox" data-category="cat2"> Item</label></li>
+                    <li><label class="checkbox"><input type="checkbox" data-category="cat2"> Item</label></li>
+                    <li><label class="checkbox"><input type="checkbox" data-category="cat2"> Item</label></li>
+                    <li><label class="checkbox"><input type="checkbox" data-category="cat2"> Item</label></li>
+                    <li><label class="checkbox"><input type="checkbox" data-category="cat2"> Item</label></li>
+                    <li><label class="checkbox"><input type="checkbox" data-category="cat2"> Item</label></li>
+                    <li><label class="checkbox"><input type="checkbox" data-category="cat2"> Item</label></li>
+                </ul>
+            </div>
+            <div class="column">
+                <label class="checkbox"><input type="checkbox" data-group="cat3"> Category 3</label>
+                <ul>
+                    <li><label class="checkbox"><input type="checkbox" data-category="cat3"> Item</label></li>
+                    <li><label class="checkbox"><input type="checkbox" data-category="cat3"> Item</label></li>
+                    <li><label class="checkbox"><input type="checkbox" data-category="cat3"> Item</label></li>
+                    <li><label class="checkbox"><input type="checkbox" data-category="cat3"> Item</label></li>
+                    <li><label class="checkbox"><input type="checkbox" data-category="cat3"> Item</label></li>
+                    <li><label class="checkbox"><input type="checkbox" data-category="cat3"> Item</label></li>
+                    <li><label class="checkbox"><input type="checkbox" data-category="cat3"> Item</label></li>
+                    <li><label class="checkbox"><input type="checkbox" data-category="cat3"> Item</label></li>
+                    <li><label class="checkbox"><input type="checkbox" data-category="cat3"> Item</label></li>
+                    <li><label class="checkbox"><input type="checkbox" data-category="cat3"> Item</label></li>
+                </ul>
+            </div>
+        </div>
+
+        <script src="bower/jquery/dist/jquery.js"></script>
+        <script src="js/dependent-checkboxes.js"></script>
+        <script>
+            var dependentCheckboxes = new DependentCheckboxes(document.getElementById('dependent-checkboxes'));
+        </script>
+    </body>
+</html>

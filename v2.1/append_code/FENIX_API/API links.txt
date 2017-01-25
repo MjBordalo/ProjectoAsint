@@ -1,0 +1,5 @@
+Python library-------->https://github.com/FenixEdu/fenixedu-python-sdk
+
+API Fenix------>http://fenixedu.org/dev/api/#get-spaces
+
+How to register apllication (já fiz e o documento falta_ver.txt fala sobre isto)---->http://fenixedu.org/dev/tutorials/use-fenixedu-api-in-your-application/
