@@ -2,15 +2,31 @@ form {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-image: url("../figs/img5.png");
     background-color: #ffffff;
-	margin: auto;
-	width: 30%;
-	margin-top: 40px;
-	border: 3px solid #0000B2;
-	padding: 10px;
+    border-radius: 5px;
+	/*margin: auto;
+	width: 50%;
+	margin-top: 40px;*/
+	/*border: 3px solid #0000B2;*/
+	padding: 50px 35px 35px;
+
+  font: 16px/1.5 'Source Sans Pro',Helvetica,Helvetica Neue,Arial;
+      font-weight: 400;
+    max-width: 500px;
+    min-width: 400px;
+      /*box-sizing: border-box;*/
+      color: #666;
+
+      position: fixed; /* or absolute */
+      top: 50%;
+      left: 50%;
+     transform: translate(-50%, -50%);
+
 }
 
 body {
-    background-image: url("../figs/img1.png");
+    background-image: url("../figs/bg-05-blur.jpg");
+    background-repeat: no-repeat;
+    background-size: cover
 }
 
 input[type=text]
@@ -25,7 +41,7 @@ input[type=text]
 
 input[type=button]
 {
-    background-color: #0000B2;
+    background-color: #009DE0;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
